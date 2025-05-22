@@ -1,6 +1,5 @@
-
 import React, { useEffect, useState } from 'react';
-import { toast } from '@/components/ui/toast';
+import { toast } from '@/hooks/use-toast';
 
 const Index = () => {
   const [theme, setTheme] = useState('dark');
